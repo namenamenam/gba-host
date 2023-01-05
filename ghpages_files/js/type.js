@@ -48,7 +48,7 @@ function copyFunction() {
     let gameTitle = JSON.parse(savedGameTxt);
     var copyData = document.getElementById("inputText");
 
-    copyData.value = "https://cattn.github.io/gba/launchpad.html?gameID=" + gameID + "&gametitle=" + gameTitle + "&fav=true";
+    copyData.value = "https://math-study.github.io/gba/launchpad.html?gameID=" + gameID + "&gametitle=" + gameTitle + "&fav=true";
     copyData.select();
     navigator.clipboard.writeText(copyData.value);
     alert("Copied link to clipboard: " + copyData.value);
